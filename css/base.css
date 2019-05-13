@@ -596,10 +596,12 @@ article {
 .contacts li a.skype:hover {
   color: #00aff0;
 }
-.contacts li a.telegram:hover {
+.contacts li a.telegram:hover,
+.contacts li a.twitter:hover {
   color: #0088cc;
 }
-.contacts li a.phone:hover {
+.contacts li a.phone:hover,
+.contacts li a.instagram:hover {
   color: dimgrey;
 }
 .contacts li a.website {
