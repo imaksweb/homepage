@@ -506,14 +506,19 @@ article {
   justify-content: center;
 }
 .avatar {
-  position: relative;
-  max-width: 15rem;
-  display: block;
-  flex: 1 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
 }
 @media only screen and (max-width: 1199px) {
   .avatar-wrapper {
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .avatar {
+    max-width: 6rem;
   }
 }
 
